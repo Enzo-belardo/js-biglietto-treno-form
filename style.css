@@ -1,0 +1,32 @@
+
+main{
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(114, 30, 30);
+}
+label{
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+input{
+    margin-bottom: .5rem;
+    border: solid 1px black;
+    padding:.5rem 1rem;
+}
+button{
+    margin-bottom: 1rem;
+    border: solid 1px black;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+}
+#output{
+    font-size: 2rem;
+    font-weight: bold;
+}
