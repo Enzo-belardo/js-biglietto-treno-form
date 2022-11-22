@@ -1,7 +1,14 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 main{
     display: flex;
     justify-content: center;
+    background-image: url(pendolino-evo.jpg);
+    background-size: cover;
+    height: 100vh;
 
 }
 .container{
@@ -9,11 +16,25 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(114, 30, 30);
+    justify-content: center;
+    background-color: rgba(114, 30, 30, .7);
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+
+.container>h1,h2{
+    margin-bottom: 2rem;
+    color: white;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
 }
 label{
     font-weight: bold;
     margin-bottom: .5rem;
+    color: white;
+    text-align: start;
 }
 input{
     margin-bottom: .5rem;
@@ -29,4 +50,5 @@ button{
 #output{
     font-size: 2rem;
     font-weight: bold;
+    color: blue;
 }
